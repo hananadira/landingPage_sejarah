@@ -77,7 +77,7 @@ export default function Example() {
   
                 <a
                   href="https://www.youtube.com/watch?v=d3Q1Q907yf8"
-                  className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
+                  className="inline-block rounded-md border border-transparent bg-myColor-50 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
                 >
                   More Information
                 </a>

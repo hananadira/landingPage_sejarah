@@ -4,7 +4,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        // warna yang tersedia 
+        myColor: {
+          50: "#343131",
+        }
+      },
+    },
   },
   plugins: [],
 }
