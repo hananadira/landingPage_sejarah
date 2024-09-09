@@ -9,6 +9,7 @@ module.exports = {
         // warna yang tersedia 
         myColor: {
           50: "#343131",
+          100: "821131",
         }
       },
     },

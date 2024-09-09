@@ -1,23 +1,28 @@
 const features = [
     {
-      name: 'Kedatangan Sekutu ke Surabaya',
+      name: 'Oktober 1945',
       description:
-        'Setelah kekalahan Jepang dalam Perang Dunia II, Indonesia memproklamasikan kemerdekaannya pada 17 Agustus 1945. Namun, Belanda yang ingin mengembalikan kekuasaan kolonialnya meminta bantuan Sekutu (terutama Inggris) untuk menduduki kembali Indonesia. Pada Oktober 1945, pasukan Sekutu di bawah komando Brigadir Jenderal A.W.S. Mallaby mendarat di Surabaya untuk melucuti senjata tentara Jepang dan membebaskan para tawanan perang.',
+        'Pasukan Inggris mulai mendarat di Surabaya. Awalnya, hubungan antara pihak Indonesia dan Inggris masih relatif baik. Namun, situasi mulai memanas ketika terjadi insiden penembakan terhadap tentara Inggris.',
     },
     {
-      name: 'Insiden Hotel Yamato (19 September 1945)',
+      name: '30 Oktober 1945',
       description:
-        'Sekelompok warga Surabaya menurunkan bendera Belanda (Merah-Putih-Biru) yang dikibarkan oleh orang-orang Belanda di hotel tersebut, lalu merobek bagian biru dari bendera tersebut sehingga hanya menyisakan warna Merah Putih, lambang Indonesia. Insiden ini memicu bentrokan antara pemuda Indonesia dengan pihak Belanda.',
+        'Brigadir Jenderal Mallaby, komandan pasukan Inggris, tewas dalam sebuah insiden. Kematiannya menjadi pemicu utama pecahnya pertempuran besar-besaran.',
     },
     {
-      name: 'Pembunuhan Brigadir Jenderal Mallaby (30 Oktober 1945)',
+      name: '10 November 1945',
       description:
-        'Situasi semakin tegang setelah terbunuhnya Brigadir Jenderal Mallaby, seorang perwira tinggi Inggris yang sedang bertugas di Surabaya. Mallaby tewas ketika mobil yang ditumpanginya dikepung dan terkena ledakan granat. Insiden ini menyebabkan Inggris memberikan ultimatum kepada para pejuang Surabaya untuk menyerah dan meletakkan senjata.',
+        'Pasukan Inggris melancarkan serangan besar-besaran ke Surabaya. Serangan ini mendapat perlawanan sengit dari rakyat Surabaya yang dipimpin oleh para pemuda.',
     },
     {
-      name: 'Ultimatum 10 November 1945',
+      name: 'Pertempuran Sengit',
       description:
-        'Ultimatum yang diberikan Inggris meminta agar semua senjata yang dimiliki oleh para pejuang Indonesia diserahkan paling lambat pada tanggal 10 November 1945, pukul 06.00 pagi. Namun, ultimatum ini ditolak mentah-mentah oleh rakyat Surabaya.',
+        'Pertempuran berlangsung selama beberapa minggu. Rakyat Surabaya menunjukkan semangat juang yang tinggi, meskipun harus menghadapi persenjataan yang jauh lebih modern milik pasukan Inggris.',
+    },
+    {
+      name: 'Akhir Pertempuran',
+      description:
+        'Pertempuran berakhir dengan kemenangan pasukan Inggris. Namun, kemenangan ini diperoleh dengan harga yang mahal. Ribuan rakyat Surabaya gugur, dan kota Surabaya mengalami kerusakan yang parah.',
     },
   ]
   
@@ -51,11 +56,11 @@ const features = [
   
           {/* Section teks berada di kanan */}
           <div>
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">LATAR BELAKANG</h2>
-            <p className="mt-4 text-gray-500">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">KRONOLOGI PERISTIWA</h2>
+            {/* <p className="mt-4 text-gray-500">
               Ada beberapa faktor yang menyebabkan terjadi nya peristiwa <b>Pertempuran Surabaya</b> yang dapat kita lihat di bawah ini secara singkat, dimulai
               dari Kedatangan Sekutu ke Surabaya, Insiden Hotel Yamato, Pembunuhan Brigadir Jenderal Mallaby, dan Ultimatum 10 November 1945
-            </p>
+            </p> */}
   
             <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
               {features.map((feature) => (

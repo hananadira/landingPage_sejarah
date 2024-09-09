@@ -5,7 +5,7 @@ export default function Example() {
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                PERTEMPURAN SURABAYA
+                <b className="text-red-500">PERTEMPURAN</b> SURABAYA
               </h1>
               <p className="mt-4 text-xl text-gray-500">
               Terjadi pada 10 November 1945 di Surabaya, Jawa Timur, pertempuran ini melibatkan 
