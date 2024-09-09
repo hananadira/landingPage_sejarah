@@ -32,21 +32,21 @@ export default function SimpleAttractiveLayout() {
         <div className="bg-white py-12 rounded-2xl shadow-xl">
           <h3 className="text-3xl font-semibold text-center text-gray-800 mb-8">Penyebab Utama Pertempuran</h3>
           <div className="flex flex-wrap justify-center gap-8">
-            {stats.map((stat, index) => (
-              <div
-                key={index}
+            {stats.map((stat) => (
+               <div
+              //   key={index}
                 className="bg-white rounded-3xl p-6 w-80 shadow-lg transform transition-transform duration-300 ease-in-out hover:scale-105"
               >
                 <div className="flex mb-4">
                   <div className="bg-blue-900 text-white p-4 rounded-full shadow-lg mr-4">
-                    <span className="text-3xl font-bold">{index + 1}</span>
+                    {/* <span className="text-3xl font-bold">{index + 1}</span> */}
                   </div>
                   <div>
                     <h4 className="text-xl font-bold text-gray-800 mb-2">{stat.value}</h4>
                     <p className="text-gray-600">{stat.name}</p>
                   </div>
                 </div>
-              </div>
+               </div>
                 ))}
           </div>
         </div>
